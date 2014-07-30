@@ -8,4 +8,7 @@ describe ('luck') do
   it('will take 8255 and return true, because 10 = 10') do
     expect(luck(8255)).to(eq(true))
   end
+  it('will take 82355 and return true, because 10 = 10') do
+    expect(luck(82355)).to(eq(true))
+  end
 end
